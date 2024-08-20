@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type='main'>HB2024</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>tranScriptorium</publisher>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl><publisher>TRP document creator: --</publisher></bibl>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile xml:id='facs_3'>
+		<surface ulx='0' uly='0' lrx='908' lry='1280'>
+			<graphic url='hb09201 - 3.png' width='908px' height='1280px'/>
+			<zone points='102,100 259,100 259,161 102,161' rendition='TextRegion' subtype='paragraph' xml:id='facs_3_r_1_1'>
+				<zone points='102,120 164,124 179,116 185,122 199,123 256,121 256,104 190,97 181,106 169,101 160,107 144,97 102,97' rendition='Line' xml:id='facs_3_r_1_1_tl_1'/>
+				<zone points='102,139 121,138 126,141 129,138 154,138 162,142 162,124 102,121' rendition='Line' xml:id='facs_3_r_1_1_tl_2'/>
+				<zone points='97,153 110,160 238,158 245,152 260,164 276,159 277,133 269,132 242,144 225,135 157,141 98,137' rendition='Line' xml:id='facs_3_r_1_1_tl_3'/>
+			</zone>
+			<zone points='314,172 637,172 637,202 314,202' rendition='TextRegion' subtype='paragraph' xml:id='facs_3_r_2_1'>
+				<zone points='314,198 634,201 634,170 595,180 534,169 514,179 505,171 314,173' rendition='Line' xml:id='facs_3_r_2_1_tl_1'/>
+			</zone>
+			<zone points='660,136 868,136 868,164 660,164' rendition='TextRegion' subtype='paragraph' xml:id='facs_3_r_3_1'>
+				<zone points='659,152 685,157 701,151 731,162 744,156 806,159 816,149 833,160 871,155 871,133 659,136' rendition='Line' xml:id='facs_3_r_3_1_tl_1'/>
+			</zone>
+			<zone points='102,212 882,212 882,533 102,533' rendition='TextRegion' subtype='paragraph' xml:id='facs_3_r_4_1'>
+				<zone points='102,229 851,230 745,210 102,219' rendition='Line' xml:id='facs_3_r_4_1_tl_1'/>
+				<zone points='149,253 498,252 498,234 149,234' rendition='Line' xml:id='facs_3_r_4_1_tl_2'/>
+				<zone points='100,287 875,288 854,266 100,270' rendition='Line' xml:id='facs_3_r_4_1_tl_3'/>
+				<zone points='147,311 852,306 810,288 147,293' rendition='Line' xml:id='facs_3_r_4_1_tl_4'/>
+				<zone points='146,326 560,325 550,306 146,311' rendition='Line' xml:id='facs_3_r_4_1_tl_5'/>
+				<zone points='107,364 851,349 106,336' rendition='Line' xml:id='facs_3_r_4_1_tl_6'/>
+				<zone points='149,379 863,378 846,361 149,361' rendition='Line' xml:id='facs_3_r_4_1_tl_7'/>
+				<zone points='146,398 538,398 538,380 146,381' rendition='Line' xml:id='facs_3_r_4_1_tl_8'/>
+				<zone points='99,430 845,436 845,412 99,419' rendition='Line' xml:id='facs_3_r_4_1_tl_9'/>
+				<zone points='146,453 846,453 818,434 146,435' rendition='Line' xml:id='facs_3_r_4_1_tl_10'/>
+				<zone points='146,470 870,472 855,451 146,454' rendition='Line' xml:id='facs_3_r_4_1_tl_11'/>
+				<zone points='146,486 857,490 857,472 146,473' rendition='Line' xml:id='facs_3_r_4_1_tl_12'/>
+				<zone points='146,507 855,507 814,488 146,486' rendition='Line' xml:id='facs_3_r_4_1_tl_13'/>
+				<zone points='145,522 507,528 541,526 540,507 144,513' rendition='Line' xml:id='facs_3_r_4_1_tl_14'/>
+			</zone>
+			<zone points='103,740 859,740 859,805 103,805' rendition='TextRegion' subtype='paragraph' xml:id='facs_3_r_5_1'>
+				<zone points='102,770 842,762 784,736 102,744' rendition='Line' xml:id='facs_3_r_5_1_tl_1'/>
+				<zone points='146,782 857,782 857,764 804,760 146,768' rendition='Line' xml:id='facs_3_r_5_1_tl_2'/>
+				<zone points='144,800 618,799 618,781 567,777 144,787' rendition='Line' xml:id='facs_3_r_5_1_tl_3'/>
+			</zone>
+			<zone points='0,0 908,0 908,2 0,2' rendition='Separator' xml:id='facs_3_r_6'/>
+			<zone points='99,9 787,9 787,11 99,11' rendition='Separator' xml:id='facs_3_r_7'/>
+			<zone points='320,194 632,194 632,196 320,196' rendition='Separator' xml:id='facs_3_r_8'/>
+			<zone points='374,652 626,652 626,655 374,655' rendition='Separator' xml:id='facs_3_r_9'/>
+			<zone points='5,656 83,656 83,657 5,657' rendition='Separator' xml:id='facs_3_r_10'/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<pb facs='#facs_3' n='3'/>
+			<p facs='#facs_3_r_1_1'>
+				<lg>
+					<l facs='#facs_3_r_1_1_tl_1'><persName><forename>Helmut</forename><surname>Bröker</surname>Helmut Bröker</persName></l>
+					<l facs='#facs_3_r_1_1_tl_2'><placeName><country>de</country>Herne</placeName></l>
+					<l facs='#facs_3_r_1_1_tl_3'><placeName><country>de</country>Marienstraße 33</placeName></l>
+				</lg>
+			</p>
+			<p facs='#facs_3_r_2_1'>
+				<lg>
+					<l facs='#facs_3_r_2_1_tl_1'><persName><forename>Franz-Josef</forename><surname>Müser</surname>Herrn Franz-Josef Müser, CDU</persName></l>
+				</lg>
+			</p>
+			<p facs='#facs_3_r_3_1'>
+				<lg>
+					<l facs='#facs_3_r_3_1_tl_1'><date when='1967-9-14' month='9' year='1967' day='14'>14. September 1967</date></l>
+				</lg>
+			</p>
+			<p facs='#facs_3_r_4_1'>
+				<lg>
+					<l facs='#facs_3_r_4_1_tl_1'>1.) Warum widersetzt sich die CDU so beharrlich dem Gedanken einer</l>
+					<l facs='#facs_3_r_4_1_tl_2'>Neutralisierung Zentraleuropas?</l>
+					<l facs='#facs_3_r_4_1_tl_3'>2.) Wie stellt sich die CDU als Befürworterin eines immer engeren An¬</l>
+					<l facs='#facs_3_r_4_1_tl_4'>schlusses der Bundesrepublik an ein westlich orientiertes Bünd¬</l>
+					<l facs='#facs_3_r_4_1_tl_5'>nissystem eine Wiedervereinigung vor?</l>
+					<l facs='#facs_3_r_4_1_tl_6'>3.) Wie können Sie als Christ, dessen Glaube am Neuen, nicht am Al-</l>
+					<l facs='#facs_3_r_4_1_tl_7'>ten Testament orientiert ist, die Adenauersche Politik der Stär-</l>
+					<l facs='#facs_3_r_4_1_tl_8'>ke vor Ihrem Gewissen verantworten?</l>
+					<l facs='#facs_3_r_4_1_tl_9'>4.) Wie rechtfertigt sich eine christliche Partei, die den Ehrgeiz</l>
+					<l facs='#facs_3_r_4_1_tl_10'>hat, eine christliche Regierung zu bilden, vor einem Volk, das</l>
+					<l facs='#facs_3_r_4_1_tl_11'>nicht nur aus Christen besteht? Mit welchem Recht nennt sie sich</l>
+					<l facs='#facs_3_r_4_1_tl_12'>demokratisch, wenn ihr ganzes Bemühen auf Christianisierung und</l>
+					<l facs='#facs_3_r_4_1_tl_13'>Konfessionalisierung der Gesellschaft und deren frei zu wählen¬</l>
+					<l facs='#facs_3_r_4_1_tl_14'>der staatlicher Organe hinausläuft?</l>
+				</lg>
+			</p>
+			<p facs='#facs_3_r_5_1'>
+				<lg>
+					<l facs='#facs_3_r_5_1_tl_1'>5.) Wie verträgt sich insbesondere die Kultur- (Schul-)politik der</l>
+					<l facs='#facs_3_r_5_1_tl_2'>CDU mit ihrem Anspruch, den Gegensatz zwischen den Konfessionen</l>
+					<l facs='#facs_3_r_5_1_tl_3'>im öffentlichen Raum überwinden zu wollen?</l>
+				</lg>
+			</p>
+		</body>
+	</text>
+</TEI>
