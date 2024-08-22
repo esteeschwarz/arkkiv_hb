@@ -46,8 +46,9 @@ access_token
 ###
 # transcript_url<-"https://transkribus.eu/TrpServer/rest/collections/411671/list"
 # transcript_url<-"https://transkribus.eu/TrpServer/rest/user/listMyDocs"
-# transcript_url<-"https://transkribus.eu/TrpServer/rest/collections/411671/2917647/fulldoc.xml"
-###
+ #transcript_url<-"https://transkribus.eu/TrpServer/rest/collections/411671/2917647/fulldoc.xml"
+ transcript_url<-sprintf("https://transkribus.eu/TrpServer/rest/collections/%s/%s/fulldoc.xml",collection_id,document_id)
+ ###
 # POST:
 export_url<-sprintf("https://transkribus.eu/TrpServer/rest/collections/%s/%s/export",collection_id,document_id)
 export_url<-sprintf("https://transkribus.eu/TrpServer/rest/collections/%s/%s/export",collection_id,document_id)
@@ -56,50 +57,54 @@ curl<-sprintf('curl -X POST -H "Content-Type: application/json" -H "sessionId: %
               access_token,collection_id,document_id)
 curl<-sprintf('curl -X POST -H "Content-Type: application/x-www-form-urlencoded" -d "username: %s" -d "pw: %s" -d "doWriteTei:true" https://transkribus.eu/TrpServer/rest/collections/%s/%s/export',
               username,password,collection_id,document_id)
-curl<-sprintf('curl -X POST -H "Content-Type: application/x-www-form-urlencoded" -d "%s" https://transkribus.eu/TrpServer/rest/collections/%s/%s/export',
-              jsonparams,collection_id,document_id)
+# curl<-sprintf('curl -X POST -H "Content-Type: application/x-www-form-urlencoded" -d "%s" https://transkribus.eu/TrpServer/rest/collections/%s/%s/export',
+#               jsonparams,collection_id,document_id)
 curl
-system(curl)              
+#system(curl)              
 params <- list(doWriteTei = TRUE,pages="1-8",doWriteAlto=FALSE)
-tei.res<-POST(export_url, json='
-                "doWriteTei": TRUE')
+# tei.res<-POST(export_url, json='
+#                 "doWriteTei": TRUE')
 jsonparams<-sprintf('{"user":"%s",
                 "pw":"%s",
         "doWriteTei": true,
         "pages":      "1-8",
         "doWriteAlto":false
         }',username,password)
-json
-tei.res<-POST(export_url, params='
-                "doWriteTei": TRUE')
-export_response <- POST(export_url,encode = "json",
-                            body=params,
-                        add_headers(Authorization = paste("sessionId", access_token)))
-export_response <- POST(export_url, encode = "json",
-                        json=json,
-                        add_headers(Authorization = paste("sessionId", access_token)))
+#json
+# tei.res<-POST(export_url, params='
+#                 "doWriteTei": TRUE')
+# export_response <- POST(export_url,encode = "json",
+#                             body=params,
+#                         add_headers(Authorization = paste("sessionId", access_token)))
+# export_response <- POST(export_url, encode = "json",
+#                         json=json,
+#                         add_headers(Authorization = paste("sessionId", access_token)))
 ###################################################
 # wks., but >
-export_response <- POST(export_url,encode = "json",
-                        body=params,
-                        add_headers(Authorization = paste("sessionId", access_token)))
-# only releases export download but wo respect to parameters
-############################################################
-export_response <- POST(export_url,
-                        add_headers(Authorization = paste("sessionId", access_token)))
-#tei.res<-POST(export_url, body =json)
-exportkey<-content(export_response,"text")
-exportkey
-content(tei.res,"text")
-transcript_url<-sprintf("https://transkribus.eu/TrpServer/rest/collections/%s/%s/4/text",collection_id,document_id)
-transcript_url
-transcript_url<-"https://transkribus.eu/TrpServer/rest/collections/411671/2917647/5/curr"
-transcript_url<-"https://files.transkribus.eu/Get?id=RDKCGHQCNKBZZQOJWZBSTWBZ"
-transcript_url<-"https://files.transkribus.eu/Get?id=UIUHMGJUABGKAGCABJFMEJJB" #HB2024 pg.3
+# export_response <- POST(export_url,encode = "json",
+#                         body=params,
+#                         add_headers(Authorization = paste("sessionId", access_token)))
+# # only releases export download but wo respect to parameters
+# ############################################################
+# export_response <- POST(export_url,
+#                         add_headers(Authorization = paste("sessionId", access_token)))
+# #tei.res<-POST(export_url, body =json)
+# exportkey<-content(export_response,"text")
+# exportkey
+# content(tei.res,"text")
+# transcript_url<-sprintf("https://transkribus.eu/TrpServer/rest/collections/%s/%s/4/text",collection_id,document_id)
+# transcript_url
+# transcript_url<-"https://transkribus.eu/TrpServer/rest/collections/411671/2917647/5/curr"
+# transcript_url<-"https://files.transkribus.eu/Get?id=RDKCGHQCNKBZZQOJWZBSTWBZ"
+ transcript_url<-"https://files.transkribus.eu/Get?id=UIUHMGJUABGKAGCABJFMEJJB" #HB2024 pg.3
+"UIUHMGJUABGKAGCABJFMEJJB"
 transcript_response <- GET(transcript_url, add_headers(Authorization = paste("sessionId", access_token)))
 #cat(content(transcript_response,"text"))
 # Save the transcript to a file
 #writeLines(content(transcript_response, "text"), "TEI/api-export_transcript.xml")
 xml<-content(transcript_response,"text")
-writeLines(xml,"~/boxHKW/21S/DH/local/EXC2020/excHB2024/transkribus/apiexpo-p03.xml")
+#writeLines(xml,"~/boxHKW/21S/DH/local/EXC2020/excHB2024/transkribus/apiexpo-p03.xml")
+out.xml<-"~/boxHKW/21S/DH/local/EXC2020/excHB2024/transkribus/apiexpo-p03x.xml"
+writeLines(xml,out.xml)
+out.xml.pretty<-system(sprintf("xmlformat %s > %s",out.xml,"~/boxHKW/21S/DH/local/EXC2020/excHB2024/transkribus/apiexpo-p03x.int.xml"))
 xml
