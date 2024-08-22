@@ -53,14 +53,19 @@ access_token
 export_url<-sprintf("https://transkribus.eu/TrpServer/rest/collections/%s/%s/export",collection_id,document_id)
 export_url<-sprintf("https://transkribus.eu/TrpServer/rest/collections/%s/%s/export",collection_id,document_id)
 export_url
-curl<-sprintf('curl -X POST -H "Content-Type: application/json" -H "sessionId: %s" -d "doWriteTei:true" https://transkribus.eu/TrpServer/rest/collections/%s/%s/export',
-              access_token,collection_id,document_id)
-curl<-sprintf('curl -X POST -H "Content-Type: application/x-www-form-urlencoded" -d "username: %s" -d "pw: %s" -d "doWriteTei:true" https://transkribus.eu/TrpServer/rest/collections/%s/%s/export',
-              username,password,collection_id,document_id)
+curl_url<-sprintf('https://transkribus.eu/TrpServer/rest/collections/%s/%s/export',collection_id,document_id)
+curl<-sprintf('curl -X POST -H "Content-Type: application/json" -H "sessionId: %s" -d "doWriteTei:true" %s',
+              access_token,curl_url)
+curl<-sprintf('curl -X POST -H "Content-Type: application/x-www-form-urlencoded" -H "sessionId: %s" -d "doWriteTei:true" %s',
+              access_token,curl_url)
+curl<-sprintf('curl -X POST -H "Content-Type: application/x-www-form-urlencoded" -d "username: %s -d "pw: %s" -d "doWriteTei:true" %s',
+              username,password,curl_url)
+# curl<-sprintf('curl -X POST -H "Content-Type: application/x-www-form-urlencoded" -d "username: %s" -d "pw: %s" -d "doWriteTei:true" https://transkribus.eu/TrpServer/rest/collections/%s/%s/export',
+#               username,password,collection_id,document_id)
 # curl<-sprintf('curl -X POST -H "Content-Type: application/x-www-form-urlencoded" -d "%s" https://transkribus.eu/TrpServer/rest/collections/%s/%s/export',
 #               jsonparams,collection_id,document_id)
 curl
-#system(curl)              
+system(curl)              
 params <- list(doWriteTei = TRUE,pages="1-8",doWriteAlto=FALSE)
 # tei.res<-POST(export_url, json='
 #                 "doWriteTei": TRUE')
@@ -98,7 +103,7 @@ jsonparams<-sprintf('{"user":"%s",
 # transcript_url<-"https://files.transkribus.eu/Get?id=RDKCGHQCNKBZZQOJWZBSTWBZ"
  transcript_url<-"https://files.transkribus.eu/Get?id=UIUHMGJUABGKAGCABJFMEJJB" #HB2024 pg.3
 "UIUHMGJUABGKAGCABJFMEJJB"
-transcript_response <- GET(transcript_url, add_headers(Authorization = paste("sessionId", access_token)))
+#transcript_response <- GET(transcript_url, add_headers(Authorization = paste("sessionId", access_token)))
 #cat(content(transcript_response,"text"))
 # Save the transcript to a file
 #writeLines(content(transcript_response, "text"), "TEI/api-export_transcript.xml")
