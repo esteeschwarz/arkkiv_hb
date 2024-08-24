@@ -25,7 +25,7 @@ ent.u<-data.frame(NE=unique(results_entities$entity),decision=1,remove=0)
 #write.csv(entities,"~/boxHKW/21S/DH/local/EXC2020/excHB2024/NE_cpt.csv")
 #save(entities,file = "~/boxHKW/21S/DH/local/EXC2020/excHB2024/entities.RData")
 ent.anon<-entities$NE[entities$remove==1]
-#save(ent.anon,file = "~/boxHKW/21S/DH/local/EXC2020/excHB2024/NE_anon.RData")
+save(ent.anon.sep,file = "~/boxHKW/21S/DH/local/EXC2020/excHB2024/NE_anon.RData")
 #wks., 10 out of 86 entity occurences to anonymise
 
 text.mets<-xml_text(hb_xml.mets)
@@ -40,8 +40,8 @@ f<-list.files("~/boxHKW/21S/DH/local/EXC2020/excHB2024/export_job_11742159/37816
 setwd("~/boxHKW/21S/DH/local/EXC2020/excHB2024/export_job_11742159/3781616/HB2024/page")
 #k<-8
 #k
-
-for (k in 1:length(f)){
+anon.NE<-function(file,regex.array){
+#for (k in 1:length(f)){
   f.anon<-readLines(f[k])
   for (regx in ent.anon.sep){
     f.anon<-gsub(regx," #anon# ",f.anon)
@@ -49,4 +49,6 @@ for (k in 1:length(f)){
   }
   writeLines(f.anon,f[k])
   cat("written",f[k],"\n")
+#}
+  return(f.anon)
 }

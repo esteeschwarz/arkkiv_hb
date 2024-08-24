@@ -102,21 +102,26 @@ page<-3
 page_url<-sprintf("https://transkribus.eu/TrpServer/rest/collections/%s/%s/%s/text",collection_id,document_id,page)
 # transcript_url
 mets_url<-sprintf("https://transkribus.eu/TrpServer/rest/collections/%s/%s/mets",collection_id,document_id)
+coll_url<-sprintf("https://transkribus.eu/TrpServer/rest/collections/%s/%s/%s",collection_id,document_id,page)
+coll_url # > this is the page as .json
 # transcript_url<-"https://transkribus.eu/TrpServer/rest/collections/411671/2917647/5/curr"
 # transcript_url<-"https://files.transkribus.eu/Get?id=RDKCGHQCNKBZZQOJWZBSTWBZ"
 # transcript_url<-"https://files.transkribus.eu/Get?id=UIUHMGJUABGKAGCABJFMEJJB" #HB2024 pg.3
 "UIUHMGJUABGKAGCABJFMEJJB"
 page_response <- GET(page_url, add_headers(Authorization = paste("sessionId", access_token)))
 mets_response <- GET(mets_url, add_headers(Authorization = paste("sessionId", access_token)))
+x_response<-GET(coll_url, add_headers(Authorization = paste("sessionId", access_token)))
 #cat(content(transcript_response,"text"))
 # Save the transcript to a file
 #writeLines(content(transcript_response, "text"), "TEI/api-export_transcript.xml")
 page.xml<-content(page_response,"text")
 mets.xml<-content(mets_response,"text")
+x.xml<-content(x_response,"text")
+#xml_text(read_xml(readLines(x.xml))
 #writeLines(xml,"~/boxHKW/21S/DH/local/EXC2020/excHB2024/transkribus/apiexpo-p03.xml")
 out.page<-"~/boxHKW/21S/DH/local/EXC2020/excHB2024/transkribus/apiexpo-page.xml"
 out.mets<-"~/boxHKW/21S/DH/local/EXC2020/excHB2024/transkribus/apiexpo-mets.xml"
-writeLines(xml,out.page)
-writeLines(xml,out.mets)
+writeLines(page.xml,out.page)
+writeLines(mets.xml,out.mets)
 #out.xml.pretty<-system(sprintf("xmlformat %s > %s",out.xml,"~/boxHKW/21S/DH/local/EXC2020/excHB2024/transkribus/apiexpo-p03x.int.xml"))
 #xml
