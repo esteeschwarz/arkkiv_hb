@@ -1,0 +1,13 @@
+.httr-oauth
+*temp_files*
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.Rprofile
+.Ulysses-Settings.plist
+.Ulysses-Group.plist
+.DS_Store
+.vscode
+~$*
+*.pdf

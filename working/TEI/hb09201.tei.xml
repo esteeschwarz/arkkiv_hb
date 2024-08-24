@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">HB2024</title>
+            <author>esteeschwarz</author>
+         </titleStmt>
+         <seriesStmt>
+            <title>HB2024-08-20</title>
+         </seriesStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">HB2024</title>
+               <author>esteeschwarz</author>
+               <respStmt>
+                  <resp>Writer</resp>
+                  <name>helmut bröker</name>
+               </respStmt>
+               <idno type="Transkribus">3781616</idno>
+               <idno type="external">NA</idno>
+               <note>letter to franz-josef müser, cdu</note>
+            </bibl>
+         </sourceDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+            <rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+            <rendition scheme="css" xml:id="blue">color:blue</rendition>
+            <rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+            <rendition scheme="css" xml:id="indent">display:block; text-indent:2em</rendition>
+            <rendition scheme="css" xml:id="et">display:block; margin-left:2em;
+                    text-indent:0</rendition>
+            <rendition scheme="css" xml:id="et2">display:block; margin-left:4em;
+                    text-indent:0</rendition>
+            <rendition scheme="css" xml:id="et3">display:block; margin-left:6em;
+                    text-indent:0</rendition>
+            <rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+            <rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+            <rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+            <rendition scheme="css" xml:id="i">font-style:italic</rendition>
+            <rendition scheme="css" xml:id="in">font-size:150%</rendition>
+            <rendition scheme="css" xml:id="k">font-variant:small-caps; font-style:normal
+    !important</rendition>
+            <rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+            <rendition scheme="css" xml:id="red">color:red</rendition>
+            <rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+            <rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+            <rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+            <rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="sup">vertical-align:super;
+                    font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+            <rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+         </tagsDecl>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <pb n="" facs="#facs_1" xml:id="img_0001"/>
+            <p type="paragraph" facs="#facs_1_r_1_1">
+               5.) Bitte, erläutern Sie a) Ihr persönliches Verhältnis zu Marx und
+               dem Marxismus, b) das Verhältnis Ihrer Partei zu Marx und dem
+               Marxismus.</p>
+            <p type="paragraph" facs="#facs_1_r_3_1">
+               Das Original dieses Briefes habe ich der Lokalredaktion der West-
+               deutschen Allgemeinen Zeitung zur Verfügung gestellt. Ob - und wenn,
+               in welcher Form - sie davon Gebrauch zu machen gedenkt, ist mir nicht
+               bekannt.</p>
+            <p type="paragraph" facs="#facs_1_r_4_1">
+               Herne, den 15. September 1961</p>
+            <p type="paragraph" facs="#facs_1_r_6_1">
+               (Es steht Ihnen frei, die obigen Überlegungen in der vorliegen¬
+               den oder in abgewandelter Form - in letzterem Falle bitte nicht unter
+               meinem Namen! - zu veröffentlichen.
+               Mit höflichem Gruß,<pb n="" facs="#facs_2" xml:id="img_0002"/>
+            </p>
+            <p type="paragraph" facs="#facs_2_r_1_1">
+               Helmut Bröker
+               Herne
+               Marienstraße 33
+               14. September 1961
+               Herrn Dr. Strodthoff, FDP
+               Die Neutralisierung Zentraleuropas wäre meiner Meinung nach auch heu¬
+               te noch als Fernziel einer deutschen Politik sehr wohl vertretbar:
+               als ein Ziel, das allein, wie mir scheint, uns noch Aussicht bietet,
+               als Nation fortzubestehen, und dessen Realisierung zugleich von glo-
+               balem Interesse wäre.
+               1.) Was hat die FDP bewogen, von diesem Ziel abzurücken, das
+               sie selbst bis etwa 1952 verfolgt hat?
+               2.) Inwiefern gibt es Ihrer Meinung nach heute keine Möglich¬
+               keit mehr, in dieser Richtung zu wirken?<pb n="" facs="#facs_3" xml:id="img_0003"/>
+            </p>
+            <p type="paragraph" facs="#facs_3_r_1_1">
+               <rs type="person" key="Bröker, Helmut">Helmut Bröker</rs>
+               <rs type="place">Herne</rs>
+               <rs type="place">Marienstraße 33</rs>
+            </p>
+            <p type="paragraph" facs="#facs_3_r_2_1">
+               <rs type="person" key="Müser, Franz-Josef">Herrn Franz-Josef Müser, CDU</rs>
+            </p>
+            <p type="paragraph" facs="#facs_3_r_3_1">
+               <date month="9" day="14" year="1967">14. September 1967</date>
+            </p>
+            <p type="paragraph" facs="#facs_3_r_4_1">
+               1.) Warum widersetzt sich die CDU so beharrlich dem Gedanken einer
+               Neutralisierung Zentraleuropas?
+               2.) Wie stellt sich die CDU als Befürworterin eines immer engeren An¬
+               schlusses der Bundesrepublik an ein westlich orientiertes Bünd¬
+               nissystem eine Wiedervereinigung vor?
+               3.) Wie können Sie als Christ, dessen Glaube am Neuen, nicht am Al-
+               ten Testament orientiert ist, die Adenauersche Politik der Stär-
+               ke vor Ihrem Gewissen verantworten?
+               4.) Wie rechtfertigt sich eine christliche Partei, die den Ehrgeiz
+               hat, eine christliche Regierung zu bilden, vor einem Volk, das
+               nicht nur aus Christen besteht? Mit welchem Recht nennt sie sich
+               demokratisch, wenn ihr ganzes Bemühen auf Christianisierung und
+               Konfessionalisierung der Gesellschaft und deren frei zu wählen¬
+               der staatlicher Organe hinausläuft?</p>
+            <p type="paragraph" facs="#facs_3_r_5_1">
+               5.) Wie verträgt sich insbesondere die Kultur- (Schul-)politik der
+               CDU mit ihrem Anspruch, den Gegensatz zwischen den Konfessionen
+               im öffentlichen Raum überwinden zu wollen?<pb n="" facs="#facs_4" xml:id="img_0004"/>
+            </p>
+            <p type="paragraph" facs="#facs_4_r_1_1">
+               Helmut Bröker
+               Herne
+               Marienstraße 33</p>
+            <p type="paragraph" facs="#facs_4_r_2_1">
+               14. September 1961</p>
+            <p type="paragraph" facs="#facs_4_r_3_1">
+               Herrn Dr. Deist, SPD</p>
+            <p type="paragraph" facs="#facs_4_r_4_1">
+               1.) Wie rechtfertigt die SPD ihr Einschwenken auf den Kurs der Regie¬
+               rungspartei? Wie erklärt sich insbesondere a) daß die Anti-Atom¬
+               tod-Kampagne plötzlich abgeblasen wurde, b) daß der sogenannte
+               Deutschlandplan stillschweigend zu den Akten gelegt wurde, c) daß
+               Wehrpflicht und Nato-Zugehörigkeit der Bundesrepublik nach stür¬
+               mischem Protest schließlich doch gutgeheißen wurden?
+               2.) Warum hat die SPD den Gedanken einer Neutralisierung Zentraleuro¬
+               pas, mit dem sie einst sympathisierte, völlig aufgegeben?
+               Wie stellt sich die SPD, nachdem sie von ihren früheren Plänen
+               abgerückt ist, eine Politik der Wiedervereinigung vor?
+               4.) Welcher Art sind die gesellschaftspolitischen Ordnungsvorstellun-
+               gen (im Unterschied zu denen, die in den zur Zeit bestehenden
+               Verhälthissen ihren Ausdruck finden), die die SPD im Falle eines
+               Wahlsieges durchzusetzen versuchen würde?</p>
+            <p type="paragraph" facs="#facs_4_r_5_1">
+               Helmut Bröker
+               Herne
+               Marienstraße 33
+               14. September 1961</p>
+            <p type="paragraph" facs="#facs_4_r_6_1">
+               An den Vertreter der DFU</p>
+            <p type="paragraph" facs="#facs_4_r_7_1">
+               1.) Wie denken Sie sich den politischen, gesellschaftlichen, wirt-
+               schaftlichen Zusammenschluß der beiden deutschen Teilstaaten
+               nach ihrer militärischen Neutralisierung
+               Welche Chancen sehen Sie auf seiten Westdeutschlands, sich in
+               dieser inneren Auseinandersetzung geistig, politisch, ökono-
+               misch gegenüber dem kommunistischen Mitteldeutschland zu be-
+               haupten?
+               3.) Wie beurteilen Sie den globalen Konflikt zwischen dem durch al¬
+               lerlei marktwirtschaftliche Ordnungen gezähmten, durch die Ten-
+               denz zur Verstaatlichung gewisser Grundstoffindustrien entgif-
+               teten, durch hundert soziale Reformen humanisierten Kapitalis-
+               mus des Westens und dem perfektionierten Sozialismus des kom-
+               munistischen Ostens?
+               4.) Bitte, erläutern Sie a) Ihr persönliches Verhältnis zum Kommu¬
+               nismus, b) das Verhältnis Ihrer Partei zum Kommunismus.<pb n="" facs="#facs_5" xml:id="img_0005"/>
+            </p>
+            <p type="paragraph" facs="#facs_5_r_1_1">
+               Helmut Bröker
+               Herne
+               Marienstraße 33</p>
+            <p type="paragraph" facs="#facs_5_r_2_1">
+               15. September 1967</p>
+            <p type="paragraph" facs="#facs_5_r_3_1">
+               An die Lokalredaktion der
+               Westdeutschen Allgemeinen Zeitung,
+               Herne, Behrensstraße
+               Angesichts der sehr prekåren politischen Lage, in der wir uns
+               befinden, scheint es mir außerordentlich wichtig, daß Sie Ihre Leser
+               noch einmal gründlich über Wesen und Bedeutung der bevorstehenden
+               Wahl aufklären, insbesondere über die Funktion ihrer Erst- und ihrer
+               Zweitstimme. Ich bin sicher, daß die Mehrzahl der Wähler in dieser
+               Hinsicht nicht klarsieht, daß überhaupt nur ganz wenige wissen: Wer
+               verantwortlich wählen will, der kann seine Erststimme nicht blind-
+               lings der Partei geben, die ihm persönlich vielleicht am sympathisch-
+               sten ist, sondern er muß unter Würdigung der realen Chancen, die die
+               einzelnen Kandidaten speziell in seinem Wahlkreis haben, entscheiden.
+               Es könnte sonst sein, daß, indem er seine Stimme einer Splittergrup¬
+               pe gibt, die gar keine Aussicht hat, einen Direktkandidaten durchzu¬
+               bekommen, er wider seinen Willen zum Wahlhelfer eben jener der bei¬
+               den großen Parteien wird, deren Erfolg er vielleicht gerade verhin¬
+               dern will: dadurch, daß er der Partei seine Stimme vorenthält, die
+               allein als Konkurrenz der großen Gegenpartei in Frage kommt.
+               Also, wenn seine Stimme wirklich zur Geltung kommen soll, wenn
+               er nicht indirekt womöglich das Gegenteil von dem erreichen will,
+               was er eigentlich für politisch erstrebenswert hält, dann wird er
+               sich in seinem Wahlkreis für einen der Kandidaten entscheiden müssen,
+               zwischen denen die Wahl tatsächlich getroffen werden wird. (Eine
+               Rücksicht, die er bei der Vergabe seiner Zweitstimme nicht in glei-
+               cher Weise walten zu lassen braucht; denn es gibt kleine Parteien,
+               die durchaus die Chance haben, auf dem Umweg über die Landeswahlli¬
+               sten die 5%-Grenze zu überspringen. Zumindest lassen sich solche Mög¬
+               lichkeiten im voraus nicht genau bestimmen; und es würde zu Ergebnis¬
+               sen führen, die den tatsächlichen Meinungsverhältnissen gar nicht
+               entsprechen, wollte man seine Zweitstimme nach den nämlichen Grund-
+               sätzen vergeben wie seine Erststimme.)
+               Eine sachliche, für jedermann möglichst gut verständliche Infor-
+               mation überbdie hier skizzierten Zusammenhänge scheint mir im Inter-
+               esse aller Parteien zu liegen: auch der kleineren, denen in einem
+               Wahlkreis wie zum Beispiel Herne, wo sie praktisch keine Aussicht ha¬
+               ben, ein Direktmandat zu erringen, nichts verloren geht, wenn sie
+               statt wenig noch weniger oder gar keine Stimmen bekommen; denen das
+               Kräfteverhaltnis der großen Parteien aber durchaus nicht gleichgül-
+               tig sein kann, da ihre eigenen Möglichkeiten, Einfluß zu nehmen auf
+               die Geschicke der Bundesrepublik, wesentlich von der großen Konstel-
+               lation CDU:SPD abhängen.
+               Wie gesagt: Das Interesse jeder der im Wahlkampf angetretenen
+               Parteien, der großen wie der kleinen, das Interesse jedes einzelnen
+               von uns, das Interesse des Ganzen verlangt ein Wissen um diese Dinge.
+               Bedenken wir doch: Indem wir über den weiteren Weg der Bundesrepu¬
+               blik entscheiden, entscheiden wir mit über das Schicksal Europas, ja
+               der Welt! Darum sollten wir diese Wahl ernst, sehr ernst nehmen. Und
+               die Denkenden sollten sich der Verantwortung bewußt sein, die sie
+               tragen, auch für ihre Mitmenschen, und sollten die Zusammenhänge
+               durchschauen helfen, so gut sie können.<pb n="" facs="#facs_6" xml:id="img_0006"/>
+            </p>
+            <p type="paragraph" facs="#facs_6_r_1_1">
+               Helmut Bröker
+               469 Herne
+               Marienstraße 33</p>
+            <p type="paragraph" facs="#facs_6_r_2_1">
+               Herne, den 15. März 1966</p>
+            <p type="paragraph" facs="#facs_6_r_3_1">
+               Sehr geehrter, lieber Herr Dr. Saher!
+               Ganz herzlich möchte ich Ihnen danken für die Übersendung der
+               Unterlagen, die ich mit großem Interesse studiere. - Erst wenn man
+               zu wissen bekommt, geht einem auf, wie wenig man gewußt hat.
+               Schon morgen werde ich Gelegenheit haben, mit Dr. Moog in Soest
+               zu sprechen; und ich zweifle kaum daran, daß es dabei zu einem po¬
+               sitiven Ergebnis für Sie kommen wird, von dem Sie dann hoffentlich
+               bald in aller Form erfahren werden. - Die Stadt Soest ist zwar, an
+               den heute üblichen Maßstäben gemessen, nicht groß; aber sie hat es
+               in sich, und ich könnte mir denken, daß Sie mit Ihrer Arbeit dort
+               ein gutee chofander, au desanle pale fodetnchggen freffie
+               Ich stehe seit geraumer Zeit in einer schweren Krise und neige
+               sehr dazu, mich von jeglicher Arbeit in der Öffentlichk
+               tgenz zu¬
+               rückzuziehen. (Gibt es auch nur ein Wort, das man gan
+               ae gar ver¬
+               treten könnte und das dagegen gefeit wäre, sich in der nächsten Mi¬
+               u verkehren?) Aber es
+               nute schon in eine Gestalt der Unwahghej
+               runden und in man¬
+               ist sehr gefährlich, gefährlich aus viel
+               nigfachem Sinne, sich ganz auf sich beschränken zu wollen - ganz
+               abgesehen davon, ob es überhaupt möglich ist und ob es zu verant¬
+               worten wäre... In dieser Situation habe ich die Begegnung mit Ihnen,
+               so kurz und so abstrakt sie war, als eine Ermunterung empfunden.
+               Dafür möchte ich Ihnen danken.</p>
+            <p type="paragraph" facs="#facs_6_r_4_1">
+               Mit den besten Wünschen für Ihre Arbeit und
+               einem herzlichen Gruß,<pb n="" facs="#facs_7" xml:id="img_0007"/>
+            </p>
+            <p type="paragraph" facs="#facs_7_r_2_1">
+               leicht nicht den Boden unter ihren Füßen verlieren wird. Ja, ich mei¬
+               ne, eben dieser Sinn für die Realität (dem wahrscheinlich ein Gefühl
+               auch für Menschen und Situationen entspricht), verbunden mit der „ern¬
+               sten Fröhlichkeit“, die aus einer zuchtvollen Haltung kommt, muß  #anon# ¬
+               lein  #anon#  erzieherische Arbeit besonders fruchtbar machen. Ruhig
+               abwagend, offen für alle Fragen, dabei immer recht genau wissend, wo-
+               rauf sie hinauswill, wird sie vor Kindern jene natürliche Autorität
+               besitzen, die den echten Lehrer auszeichnet.
+               Man muß es bedauern, daß es ihr bis heute versagt geblieben ist,
+               ihre Möglichkeiten zu realisieren - wennschon ich ihren bisherigen Be¬
+               rufsweg eigentlich nicht als Umweg empfinden kann. Ich neige vielmehr
+               dazu, in ihm das Abbild einer im Grunde sehr konsequenten inneren Ent¬
+               wicklung zu sehen: der Entwicklung eines Menschen, der in seinem Um¬
+               kreis nicht die Anregungen fand, die er gebraucht hätte, und der al¬
+               so erst über diesen Kreis hinauswachsen, sich selber im Leben umschau¬
+               en mußte, um nach und nach zu entdecken, welche Möglichkeiten die Welt
+               für ihn bereithält. - Daß  #anon# lein  #anon#  zweimal bereits eine Aus¬
+               bildung begonnen und erfolgreich zu Ende geführt hat, würde ich als
+               eine gute Bürgschaft dafür ansehen, daß sie, wenn sie nur die erhoffte
+               Chance bekommt, auch diesmal durchhalten wird, was sie sich vorgenom¬
+               men hat. Im übrigen werden ihr die Erfahrungen, die sie während ihrer
+               bisherigen Tätigkeit - zunächst als Handwerkerin, dann in jahrelangem
+               Umgang mit Kindern - sammeln konnte, in dem heute von ihr angestreb¬
+               ten Beruf sicher vielfältig zugute kommen.
+               Mag sein, daß ihr das nötige Sachwissen auf manchen Gebieten noch
+               fehlt. Immerhin: ihrem starken Interesse für religionsgeschichtliche,
+               psychologische und philosophische Fragen folgend, hat sie sich in selb-
+               ständiger Arbeit mit bedeutenden Werken der einschlägigen Literatur
+               gründlich vertraut gemacht. Es dürfte ihr demnach nicht schwerfallen,
+               etwa vorhandene Wissenslücken zu füllen und sich spezielle Kenntnisse
+               anderer Disziplinen anzueignen. Kein Zweifel, daß sie ehrlich darum
+               bemüht ist und, sollte sie das Studium an der Pädagogischen Akademie
+               tatsächlich aufnehmen dürfen, durch erhöhten Fleiß das bisher Versäum¬
+               te in kurzer Zeit ausgleichen wird.
+                #anon# lein  #anon#  spricht mit Liebe von ihrem derzeitigen Beruf,
+               der sie, wie sie sagt, äußerlich auch vollkommen ausfüllt - so sehr
+               eben, daß ihr zu eigener geistiger Betätigung daneben kaum Zeit bleibt.
+               Was sie um so mehr bedauert, da ihre Tätigkeit als Kindergärtnerin
+               sie geistig nicht ganz befriedigen kann. Nicht zuletzt darum wohl ihr
+               Wunsch, Lehrerin zu werden, für den also offenbar nicht der Gedanke an
+               ein höheres Sozialprestige maßgebend ist, sondern vor allem das Ver-
+               langen, noch dazu zu lernen und eine Tätigkeit zu bekommen, die gei¬
+               stig etwas mehr von ihr fordert. Auch insofern scheint mir die Gewähr
+               gegeben, daß  #anon# lein  #anon#  die Ausbildung an der Pädagogischen Aka¬
+               demie durchstehen und mit Erfolg abschließen wird: Es ist, wie aus dem
+               Gesagten erhellt, nicht nur das Ziel, das sie lockt und für das sie
+               zweifellos auch die Bereitschaft zu Opfern mitbringt - es ist zugleich
+               der Weg dorthin, den sie gern gehen möchte.
+               Ich würde mich freuen, wenn Sie ihr helfen könnten, auf diesen
+               Weg zu kommen. Es wäre damit, wie ich glaube, nicht nur ihr geholfen.
+               Der Mangel an guten Lehrern ist groß; einen Menschen wie  #anon# lein
+                #anon#  für den Beruf des Lehrers zu gewinnen, wäre vielleicht eine
+               Sache der uns allen aufgetragenen Gerechtigkeit.
+               Im Vertrauen auf das Verständnis und den
+               guten Willen derer, die über ihre Bewer¬
+               bung zu befinden haben,<pb n="" facs="#facs_8" xml:id="img_0008"/>
+            </p>
+            <p type="paragraph" facs="#facs_8_r_1_1">
+               Helmut Bröker
+               Herne, Marienstraße 33</p>
+            <p type="paragraph" facs="#facs_8_r_3_1">
+               Herne, im Dezember 1967</p>
+            <p type="paragraph" facs="#facs_8_r_4_1">
+               Betrifft:  #anon# lein  #anon#   #anon#  ( #anon# ,  #anon#   #anon# )
+               und ihr Gesuch um Zulassung zur Begabtensonderprüfung
+               an der Pädagogischen Akademie Dortmund.</p>
+            <p type="paragraph" facs="#facs_8_r_5_1">
+               An den Rektor der Pådagogischen Akademie Dortmund,
+               Herrn Professor Dr.  #anon#   #anon# .
+                #anon# lein  #anon#   #anon# , geboren am 12. November 1932 in Hannover,
+               tätig im  #anon#   #anon# ,  #anon# , ist mir seit Januar 1960 als
+               aufmerksame und kritische Hörerin der Volkshochschule Dortmund bekannt.
+               Sie hat sich während dieser Zeit (Frühjahr 1960, Sommer 1960, Winter
+               1961) sehr rege an meinen philosophischen Arbeitsgemeinschaften betei¬
+               ligt und machte auf mich von Anfang an den Findruck eines besonders
+               wachen, aufgeschlossenen, bildungshungrigen Menschen - einen Eindruck,
+               der sich mir in persönlichen Gesprächen, wie sie sich nach meinen Aben¬
+               den in kleinerem Kreis nicht selten ergeben, immer noch vertieft hat.
+               Ich komme daher der Bitte von  #anon#   #anon# , ihre Bewerbung bei der
+               Padagogischen Akademie durch mein Urteil zu ergänzen, gern entgegen:
+               ehrlich überzeugt, daß es für die Allgemeinheit ein Gewinn wäre, wenn
+               einem begabten und fleißigen, innerlich sauberen Menschen wie ihr der
+               Weg zum Lehrgeruf erschlossen würde.
+               In der Tat scheint mir  #anon# lein  #anon#  durch ihre Anlagen wie
+               durch ihre Entwicklung in jeder Weise legitimiert zu diesem Beruf. Be¬
+               gabt mit einer ständig reaktionsbereiten, kritischen Intelligenz (wie
+               man sie bei Frauen nicht eben häufig findet), gestaltet sie ihr Leben
+               offenbar sehr bewußt und bemüht sich mit grodem Ernst, Klarheit zu ge¬
+               winnen in all den Fragen, vor die ihr Dasein sie stellt. Solcher Ernst
+               befähigt sie zur Kühle und Nüchternheit im Denken, bedingt die Eigen¬
+               ständigkeit ihres Urteils und jene wohl nur in beharrlicher Arbeit an
+               sich selbst zu erwerbende, bei Menschen ihres Alters höchst selten an¬
+               zutreffende innere Unabhängigkeit, die sich zum Beispiel ausdrückt in
+               einer gesunden Distanz gegenüber mancherlei fragwürdigen Modernismen
+               unserer westlichen Großstadtzivilisation.
+               Ihr Verhalten gegen sich selbst wie gegen andere ist von einer
+               maßvollen Strenge, die sie dennoch nie hart oder unweiblich erscheinen
+               läßt. Überhaupt gilt es zu sehen: Mit dem Hang zum Diskursiven, zur
+               Abstraktion, zur "kühlen Vernünftigkeit" verbinden sich bei  #anon# lein
+                #anon#  kaum weniger starke Kräfte des Gefühls und der Intuition. Und
+               gerade dies Nebeneinander zweier an sich so heterogener Begabungen ist
+               wohl charakteristisch für sie, genauer: daß es ihr gelingt, diesen Ge-
+               gensatz (der ja inneren Konflikt bedeuten muß) einzuschmelzen in ihre
+               Persönlichkeit und das, was manchen anderen schwankend machen oder in-
+               nerlich zerreißen würde, in sich zu harmonischer Einheit zu verbinden.
+               (Bezeichnend ihre Nähe zur Natur, auch ein verhaltener Drang, sich
+               künstlerisch zu äußern, vor allem aber ihre Liebe zur Musik; nicht zu
+               übersehen: der Eifer, mit dem sie nach jahrelanger Unterbrechung heu¬
+               te, als Erwachsene, noch Geigenstunden nimmt!)
+               Alles in allem: Man darf den Eindruck haben, daß  #anon# lein  #anon# ¬
+               zok den Anforderungen einer wissenschaftlichen Ausbildung durchaus ge-
+               wachsen ist - ohne fürchten zu müssen, sie könne, "von des Gedankens
+               Blässe angekränkelt", jemals ganz der Theorie verfallen. Ihr, bei al-
+               lem Bedürfnis nach Reflexion, auf das Praktische gerichteter Sinn, ei-
+               ne ausgeprägte Neigung zum Handwerklichen (aus der ja wohl auch ihre
+               ursprüngliche Berufswahl zu erklären ist) lassen vermuten, daß sie so<pb n="" facs="#facs_9" xml:id="img_0009"/>
+               <pb n="" facs="#facs_10" xml:id="img_0010"/>
+               <pb n="" facs="#facs_11" xml:id="img_0011"/>
+               <pb n="" facs="#facs_12" xml:id="img_0012"/>
+               <pb n="" facs="#facs_13" xml:id="img_0013"/>
+               <pb n="" facs="#facs_14" xml:id="img_0014"/>
+               <pb n="" facs="#facs_15" xml:id="img_0015"/>
+               <pb n="" facs="#facs_16" xml:id="img_0016"/>
+               <pb n="" facs="#facs_17" xml:id="img_0017"/>
+               <pb n="" facs="#facs_18" xml:id="img_0018"/>
+               <pb n="" facs="#facs_19" xml:id="img_0019"/>
+               <pb n="" facs="#facs_20" xml:id="img_0020"/>
+               <pb n="" facs="#facs_21" xml:id="img_0021"/>
+               <pb n="" facs="#facs_22" xml:id="img_0022"/>
+               <pb n="" facs="#facs_23" xml:id="img_0023"/>
+               <pb n="" facs="#facs_24" xml:id="img_0024"/>
+               <pb n="" facs="#facs_25" xml:id="img_0025"/>
+               <pb n="" facs="#facs_26" xml:id="img_0026"/>
+               <pb n="" facs="#facs_27" xml:id="img_0027"/>
+               <pb n="" facs="#facs_28" xml:id="img_0028"/>
+               <pb n="" facs="#facs_29" xml:id="img_0029"/>
+               <pb n="" facs="#facs_30" xml:id="img_0030"/>
+               <pb n="" facs="#facs_31" xml:id="img_0031"/>
+               <pb n="" facs="#facs_32" xml:id="img_0032"/>
+               <pb n="" facs="#facs_33" xml:id="img_0033"/>
+               <pb n="" facs="#facs_34" xml:id="img_0034"/>
+               <pb n="" facs="#facs_35" xml:id="img_0035"/>
+               <pb n="" facs="#facs_36" xml:id="img_0036"/>
+               <pb n="" facs="#facs_37" xml:id="img_0037"/>
+               <pb n="" facs="#facs_38" xml:id="img_0038"/>
+               <pb n="" facs="#facs_39" xml:id="img_0039"/>
+               <pb n="" facs="#facs_40" xml:id="img_0040"/>
+               <pb n="" facs="#facs_41" xml:id="img_0041"/>
+               <pb n="" facs="#facs_42" xml:id="img_0042"/>
+               <pb n="" facs="#facs_43" xml:id="img_0043"/>
+               <pb n="" facs="#facs_44" xml:id="img_0044"/>
+               <pb n="" facs="#facs_45" xml:id="img_0045"/>
+               <pb n="" facs="#facs_46" xml:id="img_0046"/>
+               <pb n="" facs="#facs_47" xml:id="img_0047"/>
+               <pb n="" facs="#facs_48" xml:id="img_0048"/>
+               <pb n="" facs="#facs_49" xml:id="img_0049"/>
+               <pb n="" facs="#facs_50" xml:id="img_0050"/>
+               <pb n="" facs="#facs_51" xml:id="img_0051"/>
+               <pb n="" facs="#facs_52" xml:id="img_0052"/>
+               <pb n="" facs="#facs_53" xml:id="img_0053"/>
+               <pb n="" facs="#facs_54" xml:id="img_0054"/>
+               <pb n="" facs="#facs_55" xml:id="img_0055"/>
+               <pb n="" facs="#facs_56" xml:id="img_0056"/>
+               <pb n="" facs="#facs_57" xml:id="img_0057"/>
+               <pb n="" facs="#facs_58" xml:id="img_0058"/>
+               <pb n="" facs="#facs_59" xml:id="img_0059"/>
+               <pb n="" facs="#facs_60" xml:id="img_0060"/>
+               <pb n="" facs="#facs_61" xml:id="img_0061"/>
+               <pb n="" facs="#facs_62" xml:id="img_0062"/>
+               <pb n="" facs="#facs_63" xml:id="img_0063"/>
+               <pb n="" facs="#facs_64" xml:id="img_0064"/>
+               <pb n="" facs="#facs_65" xml:id="img_0065"/>
+               <pb n="" facs="#facs_66" xml:id="img_0066"/>
+               <pb n="" facs="#facs_67" xml:id="img_0067"/>
+               <pb n="" facs="#facs_68" xml:id="img_0068"/>
+               <pb n="" facs="#facs_69" xml:id="img_0069"/>
+               <pb n="" facs="#facs_70" xml:id="img_0070"/>
+               <pb n="" facs="#facs_71" xml:id="img_0071"/>
+               <pb n="" facs="#facs_72" xml:id="img_0072"/>
+               <pb n="" facs="#facs_73" xml:id="img_0073"/>
+               <pb n="" facs="#facs_74" xml:id="img_0074"/>
+               <pb n="" facs="#facs_75" xml:id="img_0075"/>
+               <pb n="" facs="#facs_76" xml:id="img_0076"/>
+               <pb n="" facs="#facs_77" xml:id="img_0077"/>
+               <pb n="" facs="#facs_78" xml:id="img_0078"/>
+               <pb n="" facs="#facs_79" xml:id="img_0079"/>
+               <pb n="" facs="#facs_80" xml:id="img_0080"/>
+               <pb n="" facs="#facs_81" xml:id="img_0081"/>
+               <pb n="" facs="#facs_82" xml:id="img_0082"/>
+               <pb n="" facs="#facs_83" xml:id="img_0083"/>
+               <pb n="" facs="#facs_84" xml:id="img_0084"/>
+               <pb n="" facs="#facs_85" xml:id="img_0085"/>
+               <pb n="" facs="#facs_86" xml:id="img_0086"/>
+               <pb n="" facs="#facs_87" xml:id="img_0087"/>
+               <pb n="" facs="#facs_88" xml:id="img_0088"/>
+               <pb n="" facs="#facs_89" xml:id="img_0089"/>
+               <pb n="" facs="#facs_90" xml:id="img_0090"/>
+               <pb n="" facs="#facs_91" xml:id="img_0091"/>
+               <pb n="" facs="#facs_92" xml:id="img_0092"/>
+               <pb n="" facs="#facs_93" xml:id="img_0093"/>
+               <pb n="" facs="#facs_94" xml:id="img_0094"/>
+               <pb n="" facs="#facs_95" xml:id="img_0095"/>
+               <pb n="" facs="#facs_96" xml:id="img_0096"/>
+               <pb n="" facs="#facs_97" xml:id="img_0097"/>
+               <pb n="" facs="#facs_98" xml:id="img_0098"/>
+               <pb n="" facs="#facs_99" xml:id="img_0099"/>
+               <pb n="" facs="#facs_100" xml:id="img_0100"/>
+               <pb n="" facs="#facs_101" xml:id="img_0101"/>
+               <pb n="" facs="#facs_102" xml:id="img_0102"/>
+               <pb n="" facs="#facs_103" xml:id="img_0103"/>
+               <pb n="" facs="#facs_104" xml:id="img_0104"/>
+               <pb n="" facs="#facs_105" xml:id="img_0105"/>
+               <pb n="" facs="#facs_106" xml:id="img_0106"/>
+               <pb n="" facs="#facs_107" xml:id="img_0107"/>
+               <pb n="" facs="#facs_108" xml:id="img_0108"/>
+               <pb n="" facs="#facs_109" xml:id="img_0109"/>
+               <pb n="" facs="#facs_110" xml:id="img_0110"/>
+               <pb n="" facs="#facs_111" xml:id="img_0111"/>
+               <pb n="" facs="#facs_112" xml:id="img_0112"/>
+               <pb n="" facs="#facs_113" xml:id="img_0113"/>
+               <pb n="" facs="#facs_114" xml:id="img_0114"/>
+               <pb n="" facs="#facs_115" xml:id="img_0115"/>
+               <pb n="" facs="#facs_116" xml:id="img_0116"/>
+               <pb n="" facs="#facs_117" xml:id="img_0117"/>
+               <pb n="" facs="#facs_118" xml:id="img_0118"/>
+               <pb n="" facs="#facs_119" xml:id="img_0119"/>
+               <pb n="" facs="#facs_120" xml:id="img_0120"/>
+               <pb n="" facs="#facs_121" xml:id="img_0121"/>
+               <pb n="" facs="#facs_122" xml:id="img_0122"/>
+               <pb n="" facs="#facs_123" xml:id="img_0123"/>
+               <pb n="" facs="#facs_124" xml:id="img_0124"/>
+               <pb n="" facs="#facs_125" xml:id="img_0125"/>
+               <pb n="" facs="#facs_126" xml:id="img_0126"/>
+               <pb n="" facs="#facs_127" xml:id="img_0127"/>
+               <pb n="" facs="#facs_128" xml:id="img_0128"/>
+               <pb n="" facs="#facs_129" xml:id="img_0129"/>
+               <pb n="" facs="#facs_130" xml:id="img_0130"/>
+               <pb n="" facs="#facs_131" xml:id="img_0131"/>
+               <pb n="" facs="#facs_132" xml:id="img_0132"/>
+               <pb n="" facs="#facs_133" xml:id="img_0133"/>
+               <pb n="" facs="#facs_134" xml:id="img_0134"/>
+               <pb n="" facs="#facs_135" xml:id="img_0135"/>
+               <pb n="" facs="#facs_136" xml:id="img_0136"/>
+               <pb n="" facs="#facs_137" xml:id="img_0137"/>
+               <pb n="" facs="#facs_138" xml:id="img_0138"/>
+               <pb n="" facs="#facs_139" xml:id="img_0139"/>
+               <pb n="" facs="#facs_140" xml:id="img_0140"/>
+               <pb n="" facs="#facs_141" xml:id="img_0141"/>
+               <pb n="" facs="#facs_142" xml:id="img_0142"/>
+               <pb n="" facs="#facs_143" xml:id="img_0143"/>
+               <pb n="" facs="#facs_144" xml:id="img_0144"/>
+               <pb n="" facs="#facs_145" xml:id="img_0145"/>
+               <pb n="" facs="#facs_146" xml:id="img_0146"/>
+               <pb n="" facs="#facs_147" xml:id="img_0147"/>
+               <pb n="" facs="#facs_148" xml:id="img_0148"/>
+               <pb n="" facs="#facs_149" xml:id="img_0149"/>
+               <pb n="" facs="#facs_150" xml:id="img_0150"/>
+               <pb n="" facs="#facs_151" xml:id="img_0151"/>
+               <pb n="" facs="#facs_152" xml:id="img_0152"/>
+               <pb n="" facs="#facs_153" xml:id="img_0153"/>
+               <pb n="" facs="#facs_154" xml:id="img_0154"/>
+               <pb n="" facs="#facs_155" xml:id="img_0155"/>
+               <pb n="" facs="#facs_156" xml:id="img_0156"/>
+               <pb n="" facs="#facs_157" xml:id="img_0157"/>
+               <pb n="" facs="#facs_158" xml:id="img_0158"/>
+               <pb n="" facs="#facs_159" xml:id="img_0159"/>
+               <pb n="" facs="#facs_160" xml:id="img_0160"/>
+               <pb n="" facs="#facs_161" xml:id="img_0161"/>
+               <pb n="" facs="#facs_162" xml:id="img_0162"/>
+               <pb n="" facs="#facs_163" xml:id="img_0163"/>
+               <pb n="" facs="#facs_164" xml:id="img_0164"/>
+               <pb n="" facs="#facs_165" xml:id="img_0165"/>
+               <pb n="" facs="#facs_166" xml:id="img_0166"/>
+               <pb n="" facs="#facs_167" xml:id="img_0167"/>
+               <pb n="" facs="#facs_168" xml:id="img_0168"/>
+               <pb n="" facs="#facs_169" xml:id="img_0169"/>
+               <pb n="" facs="#facs_170" xml:id="img_0170"/>
+               <pb n="" facs="#facs_171" xml:id="img_0171"/>
+               <pb n="" facs="#facs_172" xml:id="img_0172"/>
+               <pb n="" facs="#facs_173" xml:id="img_0173"/>
+               <pb n="" facs="#facs_174" xml:id="img_0174"/>
+               <pb n="" facs="#facs_175" xml:id="img_0175"/>
+               <pb n="" facs="#facs_176" xml:id="img_0176"/>
+               <pb n="" facs="#facs_177" xml:id="img_0177"/>
+               <pb n="" facs="#facs_178" xml:id="img_0178"/>
+               <pb n="" facs="#facs_179" xml:id="img_0179"/>
+               <pb n="" facs="#facs_180" xml:id="img_0180"/>
+               <pb n="" facs="#facs_181" xml:id="img_0181"/>
+               <pb n="" facs="#facs_182" xml:id="img_0182"/>
+               <pb n="" facs="#facs_183" xml:id="img_0183"/>
+               <pb n="" facs="#facs_184" xml:id="img_0184"/>
+               <pb n="" facs="#facs_185" xml:id="img_0185"/>
+               <pb n="" facs="#facs_186" xml:id="img_0186"/>
+               <pb n="" facs="#facs_187" xml:id="img_0187"/>
+               <pb n="" facs="#facs_188" xml:id="img_0188"/>
+               <pb n="" facs="#facs_189" xml:id="img_0189"/>
+               <pb n="" facs="#facs_190" xml:id="img_0190"/>
+               <pb n="" facs="#facs_191" xml:id="img_0191"/>
+               <pb n="" facs="#facs_192" xml:id="img_0192"/>
+               <pb n="" facs="#facs_193" xml:id="img_0193"/>
+               <pb n="" facs="#facs_194" xml:id="img_0194"/>
+               <pb n="" facs="#facs_195" xml:id="img_0195"/>
+               <pb n="" facs="#facs_196" xml:id="img_0196"/>
+               <pb n="" facs="#facs_197" xml:id="img_0197"/>
+               <pb n="" facs="#facs_198" xml:id="img_0198"/>
+               <pb n="" facs="#facs_199" xml:id="img_0199"/>
+               <pb n="" facs="#facs_200" xml:id="img_0200"/>
+               <pb n="" facs="#facs_201" xml:id="img_0201"/>
+               <pb n="" facs="#facs_202" xml:id="img_0202"/>
+               <pb n="" facs="#facs_203" xml:id="img_0203"/>
+               <pb n="" facs="#facs_204" xml:id="img_0204"/>
+               <pb n="" facs="#facs_205" xml:id="img_0205"/>
+               <pb n="" facs="#facs_206" xml:id="img_0206"/>
+               <pb n="" facs="#facs_207" xml:id="img_0207"/>
+               <pb n="" facs="#facs_208" xml:id="img_0208"/>
+               <pb n="" facs="#facs_209" xml:id="img_0209"/>
+               <pb n="" facs="#facs_210" xml:id="img_0210"/>
+               <pb n="" facs="#facs_211" xml:id="img_0211"/>
+               <pb n="" facs="#facs_212" xml:id="img_0212"/>
+               <pb n="" facs="#facs_213" xml:id="img_0213"/>
+               <pb n="" facs="#facs_214" xml:id="img_0214"/>
+               <pb n="" facs="#facs_215" xml:id="img_0215"/>
+               <pb n="" facs="#facs_216" xml:id="img_0216"/>
+               <pb n="" facs="#facs_217" xml:id="img_0217"/>
+               <pb n="" facs="#facs_218" xml:id="img_0218"/>
+               <pb n="" facs="#facs_219" xml:id="img_0219"/>
+               <pb n="" facs="#facs_220" xml:id="img_0220"/>
+               <pb n="" facs="#facs_221" xml:id="img_0221"/>
+               <pb n="" facs="#facs_222" xml:id="img_0222"/>
+               <pb n="" facs="#facs_223" xml:id="img_0223"/>
+               <pb n="" facs="#facs_224" xml:id="img_0224"/>
+               <pb n="" facs="#facs_225" xml:id="img_0225"/>
+               <pb n="" facs="#facs_226" xml:id="img_0226"/>
+               <pb n="" facs="#facs_227" xml:id="img_0227"/>
+               <pb n="" facs="#facs_228" xml:id="img_0228"/>
+               <pb n="" facs="#facs_229" xml:id="img_0229"/>
+               <pb n="" facs="#facs_230" xml:id="img_0230"/>
+               <pb n="" facs="#facs_231" xml:id="img_0231"/>
+               <pb n="" facs="#facs_232" xml:id="img_0232"/>
+               <pb n="" facs="#facs_233" xml:id="img_0233"/>
+               <pb n="" facs="#facs_234" xml:id="img_0234"/>
+               <pb n="" facs="#facs_235" xml:id="img_0235"/>
+               <pb n="" facs="#facs_236" xml:id="img_0236"/>
+               <pb n="" facs="#facs_237" xml:id="img_0237"/>
+               <pb n="" facs="#facs_238" xml:id="img_0238"/>
+               <pb n="" facs="#facs_239" xml:id="img_0239"/>
+               <pb n="" facs="#facs_240" xml:id="img_0240"/>
+               <pb n="" facs="#facs_241" xml:id="img_0241"/>
+               <pb n="" facs="#facs_242" xml:id="img_0242"/>
+               <pb n="" facs="#facs_243" xml:id="img_0243"/>
+               <pb n="" facs="#facs_244" xml:id="img_0244"/>
+               <pb n="" facs="#facs_245" xml:id="img_0245"/>
+               <pb n="" facs="#facs_246" xml:id="img_0246"/>
+               <pb n="" facs="#facs_247" xml:id="img_0247"/>
+               <pb n="" facs="#facs_248" xml:id="img_0248"/>
+               <pb n="" facs="#facs_249" xml:id="img_0249"/>
+               <pb n="" facs="#facs_250" xml:id="img_0250"/>
+               <pb n="" facs="#facs_251" xml:id="img_0251"/>
+               <pb n="" facs="#facs_252" xml:id="img_0252"/>
+               <pb n="" facs="#facs_253" xml:id="img_0253"/>
+               <pb n="" facs="#facs_254" xml:id="img_0254"/>
+               <pb n="" facs="#facs_255" xml:id="img_0255"/>
+               <pb n="" facs="#facs_256" xml:id="img_0256"/>
+               <pb n="" facs="#facs_257" xml:id="img_0257"/>
+               <pb n="" facs="#facs_258" xml:id="img_0258"/>
+               <pb n="" facs="#facs_259" xml:id="img_0259"/>
+               <pb n="" facs="#facs_260" xml:id="img_0260"/>
+               <pb n="" facs="#facs_261" xml:id="img_0261"/>
+               <pb n="" facs="#facs_262" xml:id="img_0262"/>
+               <pb n="" facs="#facs_263" xml:id="img_0263"/>
+               <pb n="" facs="#facs_264" xml:id="img_0264"/>
+               <pb n="" facs="#facs_265" xml:id="img_0265"/>
+               <pb n="" facs="#facs_266" xml:id="img_0266"/>
+               <pb n="" facs="#facs_267" xml:id="img_0267"/>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
