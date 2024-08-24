@@ -104,7 +104,7 @@ anon.NE<-function(xml.lines){
   #for (k in 1:length(f)){
   f.anon<-xml.lines
   for (regx in ent.anon.sep){
-    f.anon<-gsub(regx," #anon# ",f.anon)
+    f.anon<-gsub(regx,"#anon#",f.anon)
     
   }
  # writeLines(f.anon,f[k])

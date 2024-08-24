@@ -19,19 +19,30 @@ page.range<-c(1:8)
 api.init<-init.api(collection_id,document_id)
 ###
 # anonymise for each transcribed page:
-k<-8
-k
+#k<-8
+#k
+fun.obs<-function(){
 for (k in page.range){
 response<-get.transcript(api.init,k,page.xml = T,mets.xml = T)
 page.xml<-read_xml(response$page)
-xml_text(page.xml)
-mets.lines<-readLines(response$mets)
+#xml_text(page.xml)
+xml.temp<-tempfile("page.xml")
+write_xml(page.xml,xml.temp)
+#unlist(response$mets)
+#mets.lines<-readLines(unlist(response$mets))
+# mets.xml<-read_xml(response$mets)
+# write_xml(mets.xml,"/Users/guhl/boxHKW/21S/DH/local/EXC2020/excHB2024/page2tei/exports/HB2024/mets.xml")
 #writeLines(mets.lines,"~/temp/testapimets.xml")
 #writeLines(mets.lines,"/Users/guhl/boxHKW/21S/DH/local/EXC2020/excHB2024/page2tei/exports/HB2024/mets.xml")
-writeLines(mets.lines,"/Users/guhl/boxHKW/21S/DH/local/EXC2020/excHB2024/page2tei/exports/HB2024/mets.xml")
+#writeLines(mets.lines,"/Users/guhl/boxHKW/21S/DH/local/EXC2020/excHB2024/page2tei/exports/HB2024/mets.xml")
 # to be written to page2tei export folder !!!!
-page.lines<-readLines(response$page)
+page.lines<-readLines(xml.temp)
+#############################
+### > this is useless since the page2tei python script fetches the page resources according to the 
+# .mets file where the href of all ressources is on the transkribus server, so the local copies of the
+# page files are obsolete, you only need the .mets file to build the TEI
 xml.anon<-anon.NE(page.lines)
+#############################
 ### get ns for original export files in export folder
 f<-list.files(paste(basefolder,pagefolder,sep = "/"))
 out.ns<-paste(basefolder,pagefolder,f[k],sep = "/")
@@ -39,6 +50,12 @@ out.ns
 writeLines(xml.anon,out.ns)
 #xml.lines<-readLines(output)
 }
+}
 ### fetch mets.xml
 mets.xml<-read_xml(response$mets)
+write_xml(mets.xml,"/Users/guhl/boxHKW/21S/DH/local/EXC2020/excHB2024/page2tei/exports/HB2024/mets.xml")
 make.tei(exports,output)
+### anon:
+tei.xml<-readLines(output)
+tei.anon<-anon.NE(tei.xml)
+writeLines(tei.anon,output)
