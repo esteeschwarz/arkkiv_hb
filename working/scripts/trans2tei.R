@@ -6,11 +6,14 @@
 ### from functions()
 source("~/Documents/GitHub/arkkiv_hb/working/scripts/functions.R")
 # initialise
+## python
 #conda_create("trans-env",python_version = "3.12")
 use_condaenv("trans-env")
+###
 #setwd("/Users/guhl/Documents/GitHub/fork/trans2tei")
 basefolder<-"/Users/guhl/Documents/GitHub/fork/trans2tei"
 exports<-"exports/HB2024/mets.xml"
+mets.ns<-paste(basefolder,exports,sep = "/")
 output<-"/Users/guhl/Documents/GitHub/arkkiv_hb/working/TEI/hb09201.tei.xml"
 pagefolder<-"exports/HB2024/page"
 collection_id<-989514
@@ -52,8 +55,12 @@ writeLines(xml.anon,out.ns)
 }
 }
 ### fetch mets.xml
+response<-get.transcript(api.init,get_page =F,get_mets= T)
 mets.xml<-read_xml(response$mets)
-write_xml(mets.xml,"/Users/guhl/boxHKW/21S/DH/local/EXC2020/excHB2024/page2tei/exports/HB2024/mets.xml")
+mets.ns
+write_xml(mets.xml,mets.ns)
+getwd()
+cat("all ressources fetched...\nnow performing TEI transformation\n")
 make.tei(exports,output)
 ### anon:
 tei.xml<-readLines(output)
